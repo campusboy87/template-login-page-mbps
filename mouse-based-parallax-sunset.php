@@ -3,6 +3,8 @@
  * Plugin Name: Mouse-Based-Parallax Sunset
  */
 
+defined( 'ABSPATH' ) || die();
+
 add_action( 'login_header', 'mbps_add_template' );
 add_action( 'login_enqueue_scripts', 'mbps_enqueue_assets' );
 
